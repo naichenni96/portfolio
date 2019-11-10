@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Naichen Ni</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151350079-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-151350079-1');
+    </script>
+  </head>
+  <body>
+    <div class="jump"><a href="#main">Jump to Content</a></div>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="current"><a href="experience.html">Experience</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header>
+        <h1>Naichen Ni</h1>
+    </header>
+  <main id="main">
+    <div class="container-exprience">
+    <div class="experience">
+      <h2>Experience</h2>
+    </div>
+    <div class="experience1">
+        <p> Microsoft, Data Scientist Intern, Redmond, WA, 2019.6-2019.8</p>
+        <ul>
+             <li>Designed and implemented Memory Leak Detection model by combining LightGBM algorithm and Bayesian optimization, which could predict the appeared timestamp of potential memory leak in Azure cloud databases. The prediction result achieved the performance of 0.81 AUC and improved F1 measure over 15% than the baseline engineering model.
+            </li>
+             <li>Worked on Exploratory Data Analysis (EDA) on Kusto, resampled the imbalanced training data by SMOTE algorithm, utilized contextualized word embedding of text in database log by fine-tuned BERT model, which greatly amplified AUC measure by about 12%.
+            </li>
+             <li>Deployed the model as C# runner in Azure cloud platform, which could automatically generate predicted memory leak daily.
+            </li>
+        </ul>
+    </div>
+    <div class="experience2">
+        <p> Lenovo, Machine Learning Intern, Beijing, 2017.12-2018.4</p>
+         <ul>
+            <li>Constructed Stacking model (Bayesian Ridge, Random Forest, LSTM, Xgboost and Prophet method) on Spark to predict PC sales volume in future 8-12 weeks. The result made prediction accuracy improve from 55% to 76%, helping global planning team improve sales strategy.
+            </li>
+            <li>Smoothed weekly historical data by combining Gaussian smoothing and Lowess smoothing, also established new features for holiday and quarter promotion by Prophet method, which increased the prediction performance of model by around 10%.
+            </li>
+            <li>Developed ETL (extract, transform, and load) processes in HiveQL environment and designed automatic visualization dashboard. 
+            </li>
+        </ul>
+    </div>
+    <div class="experience3">
+        <p> Meituan-Dianping, Data Mining Intern, Beijing, 2017.9-2017.12</p>
+        <ul>
+            <li>Developed Query Rank algorithm for Meituan Catering Service by incorporating LambdaMart method and oversampled the long- tailed query data, which outperformed Ranking SVM method and improved the conversion rate by around 5%.
+            </li>
+            <li>Designed Recommendation System to personalize customer experience by combining Word2vec item Embedding and Top-k nearest neighbor, which made the click through rate and unique page view increase by 2.4%
+            </li>
+        </ul>
+    </div>
+    <div class="experience4">
+        <p> Didi Chuxing, Data Analyst Intern, Beijing, 2016.12-2017.3 </p>
+        <ul>
+            <li>Clustered drivers to differentiate their activeness by Spectral Clustering method, and allocated high-active drivers to areas with more orders, which optimized order allocation algorithm, increased drivers’ efficiency and customer satisfaction.
+            </li>
+            <li>Predicted taxi order revenue every week by ARIMAX model, which helped market department make better promotion strategy and increase company profit a lot.
+            </li>
+            <li>Extracted drivers' data in HiveQL environment and responsible for filtering drivers who satisfy the rule for ride-sharing services by SQL.
+            </li>
+        </ul>
+    </div>
+    </div>
+  </main>
+    <footer>
+        <h3>Contact me: ncni@umich.edu</h3>
+      </footer>
+    </body>
+</html>
